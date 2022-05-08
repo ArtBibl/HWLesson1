@@ -1,7 +1,39 @@
-body {
-    background-color: rgb(227, 233, 233);
+
+header {
+    padding-left: 15px;
+    margin: 0px;
 }
 
-h1, footer {
-    background-color: rgb(194, 199, 199);
+body {
+    background-color: rgb(242, 250, 250);
 }
+
+h1 {
+    background-color: rgb(213, 223, 223);
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    /* padding: 15px; */
+}
+
+figcaption {
+    text-align: center;
+   }
+   .left {
+    float: left; /* Выравнивание по левому краю */
+    margin: 0 1em 1em 0; /* Отступ справа и снизу */
+   }
+   .right{
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 1em 1em; /* Отступ снизу и слева */
+   }
+
+.btn-group {
+    margin: 15px;
+}
+
+footer {
+    background-color: rgb(213, 223, 223);
+}
+
