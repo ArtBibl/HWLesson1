@@ -5,7 +5,6 @@ header {
 }
 
 body {
-    
     background-color: rgb(242, 250, 250);
 }
 
@@ -13,7 +12,7 @@ main {
     margin: 16px;
 }
 
-p {
+.nice_font {
     font-family: 'Playfair Display', serif;
 }
 
@@ -56,3 +55,21 @@ a.button {
   } 
 a.button:hover { background:  rgb(125, 133, 133); } /* при наведении курсора мышки */
 a.button:active { background:  rgb(78, 82, 82); } /* при нажатии */
+
+.pic {
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    margin: 30px;
+    box-shadow:
+         /* inset 0 -3em 3em rgba(0,0,0,0.1), */
+              inset 0 0  0 2px rgb(255,255,255),
+               0.3em 0.3em 1em rgba(0,0,0,100.3);
+    font-family: 'Playfair Display', serif;
+  }
+
+  .center { 
+    text-align: center; 
+  }
